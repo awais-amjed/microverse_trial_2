@@ -1,27 +1,24 @@
-main-section{
-
-}
-
-ul1 {
-    list-style-type: none;
+body {
     margin: 0;
     padding: 0;
-    overflow: hidden;
-    background-color: #333;
+    font-size: 100%;
 }
-
-li1 {
+.left {
+    width: 20%;
     float: left;
 }
-
-li1 a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+.nav {
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
-
-li1 a:hover {
-    background-color: #111;
+.nav li {
+    margin: 1px 0;
+    border: 1px solid #999;
+}
+.nav li a {
+    display: block;
+    line-height: 3em;
+    width: 100%;
+    text-decoration: none;
 }
